@@ -1,0 +1,53 @@
+ .container {
+     /* width: 90vw; */
+     /* height: 90vh; */
+     /* border: 2px solid; */
+     padding: 10px;
+     display: flex;
+     gap: 40px;
+     background-color: rgb(41, 38, 38);
+     border-radius: 10px;
+ }
+
+
+ .card{
+    position: relative;
+ }
+ img{
+    border-radius: 5px;
+ }
+ .time{
+    position: absolute;
+    z-index: 100;
+    bottom: 6px;
+    right: 4px;
+    padding: 4px;
+    color: antiquewhite;
+    background-color: rgb(76, 71, 68);
+    border-radius: 6px;
+ }
+ 
+ .info {
+     /* height: 200px; */
+     /* width: 100px; */
+     /* border: 2px solid; */
+     color:white;
+
+ }
+ .title {
+     /* height: 20px; */
+     /* width: 40px; */
+     /* border: 2px solid; */
+     margin-bottom: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 600;
+     font-size:22px
+ }
+ .other {
+     /* height: 20px; */
+     /* width: 40px; */
+     /* border: 2px solid; */
+     font-family: monospace;
+     font-weight: 200;
+     font-size: 16px;
+ }
